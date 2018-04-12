@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SearchBookApp
+
+  Created by Chan, Tsz Hin on 12/4/2018.
+  Copyright © 2018 temp. All rights reserved.
+*/
+
+"welcome_message" = "你好 %@";

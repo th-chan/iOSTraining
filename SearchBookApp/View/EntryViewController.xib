@@ -13,6 +13,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntryViewController" customModule="SearchBookApp" customModuleProvider="target">
             <connections>
+                <outlet property="lblWelcomeMessage" destination="PnV-vt-f1S" id="SKQ-cW-7ME"/>
+                <outlet property="tfInput" destination="058-lw-xnh" id="cf4-Nz-BWH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,7 +23,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UcL-aC-NnS" userLabel="BottomBanner">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googleNewLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UcL-aC-NnS" userLabel="BottomBanner">
                     <rect key="frame" x="0.0" y="573.5" width="375" height="93.5"/>
                     <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -31,7 +33,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-Ky-9po" userLabel="TopPartUIView">
                     <rect key="frame" x="0.0" y="20" width="375" height="553.5"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cih-aM-b5Y" userLabel="TopBanner">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googleNewLogo" translatesAutoresizingMaskIntoConstraints="NO" id="cih-aM-b5Y" userLabel="TopBanner">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="211"/>
                             <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
@@ -67,6 +69,9 @@
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="jLa-8B-13Z"/>
                             </constraints>
                             <state key="normal" title="Click Me"/>
+                            <connections>
+                                <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="v4m-od-yz7"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.7545275026455468" green="0.45597593794351648" blue="0.8470288212435233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -98,4 +103,7 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
+    <resources>
+        <image name="googleNewLogo" width="770" height="472"/>
+    </resources>
 </document>
