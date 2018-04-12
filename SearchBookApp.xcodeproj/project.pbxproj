@@ -15,6 +15,8 @@
 		BDA7E74E207F03B900C6689F /* SearchBookAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E74D207F03B900C6689F /* SearchBookAppUITests.swift */; };
 		BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */; };
 		BDA7E75E207F0C3E00C6689F /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */; };
+		BDA7E763207F44D300C6689F /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E761207F44D300C6689F /* EntryViewController.swift */; };
+		BDA7E764207F44D300C6689F /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E762207F44D300C6689F /* EntryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BDA7E74F207F03B900C6689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		BDA7E761207F44D300C6689F /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		BDA7E762207F44D300C6689F /* EntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		BDA7E72C207F03B700C6689F /* SearchBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDA7E760207F44A200C6689F /* View */,
 				BDA7E72D207F03B700C6689F /* AppDelegate.swift */,
 				BDA7E72F207F03B700C6689F /* ViewController.swift */,
 				BDA7E734207F03B900C6689F /* Assets.xcassets */,
@@ -126,6 +131,15 @@
 				BDA7E74F207F03B900C6689F /* Info.plist */,
 			);
 			path = SearchBookAppUITests;
+			sourceTree = "<group>";
+		};
+		BDA7E760207F44A200C6689F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDA7E761207F44D300C6689F /* EntryViewController.swift */,
+				BDA7E762207F44D300C6689F /* EntryViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA7E75E207F0C3E00C6689F /* LandingViewController.xib in Resources */,
+				BDA7E764207F44D300C6689F /* EntryViewController.xib in Resources */,
 				BDA7E738207F03B900C6689F /* LaunchScreen.storyboard in Resources */,
 				BDA7E735207F03B900C6689F /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA7E730207F03B700C6689F /* ViewController.swift in Sources */,
+				BDA7E763207F44D300C6689F /* EntryViewController.swift in Sources */,
 				BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */,
 				BDA7E72E207F03B700C6689F /* AppDelegate.swift in Sources */,
 			);
