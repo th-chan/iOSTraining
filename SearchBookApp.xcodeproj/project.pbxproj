@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		BDA7E72E207F03B700C6689F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72D207F03B700C6689F /* AppDelegate.swift */; };
 		BDA7E730207F03B700C6689F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72F207F03B700C6689F /* ViewController.swift */; };
-		BDA7E733207F03B700C6689F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E731207F03B700C6689F /* Main.storyboard */; };
 		BDA7E735207F03B900C6689F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E734207F03B900C6689F /* Assets.xcassets */; };
 		BDA7E738207F03B900C6689F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E736207F03B900C6689F /* LaunchScreen.storyboard */; };
 		BDA7E743207F03B900C6689F /* SearchBookAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E742207F03B900C6689F /* SearchBookAppTests.swift */; };
 		BDA7E74E207F03B900C6689F /* SearchBookAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E74D207F03B900C6689F /* SearchBookAppUITests.swift */; };
+		BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */; };
+		BDA7E75E207F0C3E00C6689F /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		BDA7E72A207F03B700C6689F /* SearchBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA7E72D207F03B700C6689F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA7E72F207F03B700C6689F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDA7E732207F03B700C6689F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDA7E734207F03B900C6689F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA7E737207F03B900C6689F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDA7E739207F03B900C6689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		BDA7E749207F03B900C6689F /* SearchBookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA7E74D207F03B900C6689F /* SearchBookAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookAppUITests.swift; sourceTree = "<group>"; };
 		BDA7E74F207F03B900C6689F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 			children = (
 				BDA7E72D207F03B700C6689F /* AppDelegate.swift */,
 				BDA7E72F207F03B700C6689F /* ViewController.swift */,
-				BDA7E731207F03B700C6689F /* Main.storyboard */,
 				BDA7E734207F03B900C6689F /* Assets.xcassets */,
 				BDA7E736207F03B900C6689F /* LaunchScreen.storyboard */,
 				BDA7E739207F03B900C6689F /* Info.plist */,
+				BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */,
+				BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */,
 			);
 			path = SearchBookApp;
 			sourceTree = "<group>";
@@ -229,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA7E75E207F0C3E00C6689F /* LandingViewController.xib in Resources */,
 				BDA7E738207F03B900C6689F /* LaunchScreen.storyboard in Resources */,
 				BDA7E735207F03B900C6689F /* Assets.xcassets in Resources */,
-				BDA7E733207F03B700C6689F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA7E730207F03B700C6689F /* ViewController.swift in Sources */,
+				BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */,
 				BDA7E72E207F03B700C6689F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDA7E731207F03B700C6689F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDA7E732207F03B700C6689F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDA7E736207F03B900C6689F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
