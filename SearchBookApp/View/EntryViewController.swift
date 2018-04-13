@@ -31,6 +31,10 @@ class EntryViewController: UIViewController {
         
 //        print(Configurable().getDomain())
         print(domainUrl)
+        
+        #if UAT
+        print("Hello Swift Flag")
+        #endif
     }
     
     @objc func touchDown() {

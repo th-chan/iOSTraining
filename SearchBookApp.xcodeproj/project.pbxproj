@@ -1024,6 +1024,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "\"-D\" \"UAT\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1043,6 +1044,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "\"-D\" \"UAT\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
