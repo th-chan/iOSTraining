@@ -9,6 +9,44 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>SearchBookAppDev.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>SearchBookAppUat.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BDA7E729207F03B700C6689F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDA7E73D207F03B900C6689F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDA7E748207F03B900C6689F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDF4A59C2080A60F004401C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDF4A5B72080A8DE004401C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

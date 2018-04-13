@@ -26,6 +26,44 @@
 		BDA7E764207F44D300C6689F /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E762207F44D300C6689F /* EntryViewController.xib */; };
 		BDA7E76A207F57B500C6689F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E76C207F57B500C6689F /* Localizable.strings */; };
 		BDA7E76F207F5D6F00C6689F /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E76E207F5D6F00C6689F /* Language.swift */; };
+		BDF4A59F2080A60F004401C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72F207F03B700C6689F /* ViewController.swift */; };
+		BDF4A5A02080A60F004401C4 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E76E207F5D6F00C6689F /* Language.swift */; };
+		BDF4A5A12080A60F004401C4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD804424208045540088471A /* CustomButton.swift */; };
+		BDF4A5A22080A60F004401C4 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E761207F44D300C6689F /* EntryViewController.swift */; };
+		BDF4A5A32080A60F004401C4 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442620805CFA0088471A /* BookListTableViewController.swift */; };
+		BDF4A5A42080A60F004401C4 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */; };
+		BDF4A5A52080A60F004401C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72D207F03B700C6689F /* AppDelegate.swift */; };
+		BDF4A5A62080A60F004401C4 /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442A2080610C0088471A /* DetialViewController.swift */; };
+		BDF4A5A82080A60F004401C4 /* Pods_SearchBookApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4123C4CE16096FF4AF753371 /* Pods_SearchBookApp.framework */; };
+		BDF4A5AA2080A60F004401C4 /* DetialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442B2080610C0088471A /* DetialViewController.xib */; };
+		BDF4A5AB2080A60F004401C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E76C207F57B500C6689F /* Localizable.strings */; };
+		BDF4A5AC2080A60F004401C4 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */; };
+		BDF4A5AD2080A60F004401C4 /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E762207F44D300C6689F /* EntryViewController.xib */; };
+		BDF4A5AE2080A60F004401C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E736207F03B900C6689F /* LaunchScreen.storyboard */; };
+		BDF4A5AF2080A60F004401C4 /* BookListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442720805CFA0088471A /* BookListTableViewController.xib */; };
+		BDF4A5B02080A60F004401C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E734207F03B900C6689F /* Assets.xcassets */; };
+		BDF4A5BA2080A8DE004401C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72F207F03B700C6689F /* ViewController.swift */; };
+		BDF4A5BB2080A8DE004401C4 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E76E207F5D6F00C6689F /* Language.swift */; };
+		BDF4A5BC2080A8DE004401C4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD804424208045540088471A /* CustomButton.swift */; };
+		BDF4A5BD2080A8DE004401C4 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E761207F44D300C6689F /* EntryViewController.swift */; };
+		BDF4A5BE2080A8DE004401C4 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442620805CFA0088471A /* BookListTableViewController.swift */; };
+		BDF4A5BF2080A8DE004401C4 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E75B207F0C3E00C6689F /* LandingViewController.swift */; };
+		BDF4A5C02080A8DE004401C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72D207F03B700C6689F /* AppDelegate.swift */; };
+		BDF4A5C12080A8DE004401C4 /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442A2080610C0088471A /* DetialViewController.swift */; };
+		BDF4A5C32080A8DE004401C4 /* Pods_SearchBookApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4123C4CE16096FF4AF753371 /* Pods_SearchBookApp.framework */; };
+		BDF4A5C52080A8DE004401C4 /* DetialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442B2080610C0088471A /* DetialViewController.xib */; };
+		BDF4A5C62080A8DE004401C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E76C207F57B500C6689F /* Localizable.strings */; };
+		BDF4A5C72080A8DE004401C4 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */; };
+		BDF4A5C82080A8DE004401C4 /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E762207F44D300C6689F /* EntryViewController.xib */; };
+		BDF4A5C92080A8DE004401C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E736207F03B900C6689F /* LaunchScreen.storyboard */; };
+		BDF4A5CA2080A8DE004401C4 /* BookListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442720805CFA0088471A /* BookListTableViewController.xib */; };
+		BDF4A5CB2080A8DE004401C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E734207F03B900C6689F /* Assets.xcassets */; };
+		BDF4A5D32080ACBF004401C4 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4A5D22080ACBF004401C4 /* Configurable.swift */; };
+		BDF4A5D42080ACBF004401C4 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4A5D22080ACBF004401C4 /* Configurable.swift */; };
+		BDF4A5D52080ACBF004401C4 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4A5D22080ACBF004401C4 /* Configurable.swift */; };
+		BDF4A5DD2080ADCD004401C4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4A5DA2080ADCD004401C4 /* Config.swift */; };
+		BDF4A5E02080ADFE004401C4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4A5DE2080ADFE004401C4 /* Config.swift */; };
+		BDF4A5E32080AE04004401C4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4A5E22080AE04004401C4 /* Config.swift */; };
 		EFB5EB7752672A8B6E018DC4 /* Pods_SearchBookAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424872F3206666A038CDFC4E /* Pods_SearchBookAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +118,14 @@
 		BDA7E76D207F57B700C6689F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BDA7E76E207F5D6F00C6689F /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		BDBCC0380E21281D240D6B7D /* Pods_SearchBookAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchBookAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4A5B52080A60F004401C4 /* SearchBookAppUat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBookAppUat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4A5B62080A60F004401C4 /* SearchBookAppUat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SearchBookAppUat-Info.plist"; path = "/Users/th.chan/Desktop/iOSTraining/SearchBookApp/SearchBookAppUat-Info.plist"; sourceTree = "<absolute>"; };
+		BDF4A5D02080A8DE004401C4 /* SearchBookAppDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBookAppDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4A5D12080A8DE004401C4 /* SearchBookAppDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SearchBookAppDev-Info.plist"; path = "/Users/th.chan/Desktop/iOSTraining/SearchBookApp/SearchBookAppDev-Info.plist"; sourceTree = "<absolute>"; };
+		BDF4A5D22080ACBF004401C4 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		BDF4A5DA2080ADCD004401C4 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		BDF4A5DE2080ADFE004401C4 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		BDF4A5E22080AE04004401C4 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		BEBA1730FAE16CE2163E5521 /* Pods-SearchBookApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBookApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchBookApp/Pods-SearchBookApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +154,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDF4A5A72080A60F004401C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4A5A82080A60F004401C4 /* Pods_SearchBookApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4A5C22080A8DE004401C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4A5C32080A8DE004401C4 /* Pods_SearchBookApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -133,6 +195,8 @@
 				BDA7E72B207F03B700C6689F /* Products */,
 				13B25EE858D5AF4F6D11381F /* Pods */,
 				C73E3D2B39A22C869C770C53 /* Frameworks */,
+				BDF4A5B62080A60F004401C4 /* SearchBookAppUat-Info.plist */,
+				BDF4A5D12080A8DE004401C4 /* SearchBookAppDev-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +206,8 @@
 				BDA7E72A207F03B700C6689F /* SearchBookApp.app */,
 				BDA7E73E207F03B900C6689F /* SearchBookAppTests.xctest */,
 				BDA7E749207F03B900C6689F /* SearchBookAppUITests.xctest */,
+				BDF4A5B52080A60F004401C4 /* SearchBookAppUat.app */,
+				BDF4A5D02080A8DE004401C4 /* SearchBookAppDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +215,7 @@
 		BDA7E72C207F03B700C6689F /* SearchBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDF4A5D62080AD95004401C4 /* Config */,
 				BDA7E760207F44A200C6689F /* View */,
 				BDA7E72D207F03B700C6689F /* AppDelegate.swift */,
 				BDA7E72F207F03B700C6689F /* ViewController.swift */,
@@ -159,6 +226,7 @@
 				BDA7E75C207F0C3E00C6689F /* LandingViewController.xib */,
 				BDA7E76C207F57B500C6689F /* Localizable.strings */,
 				BDA7E76E207F5D6F00C6689F /* Language.swift */,
+				BDF4A5D22080ACBF004401C4 /* Configurable.swift */,
 			);
 			path = SearchBookApp;
 			sourceTree = "<group>";
@@ -193,6 +261,40 @@
 				BD80442B2080610C0088471A /* DetialViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BDF4A5D62080AD95004401C4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4A5D92080ADB0004401C4 /* Prod */,
+				BDF4A5D82080ADA9004401C4 /* Uat */,
+				BDF4A5D72080ADA2004401C4 /* Dev */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BDF4A5D72080ADA2004401C4 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4A5DA2080ADCD004401C4 /* Config.swift */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		BDF4A5D82080ADA9004401C4 /* Uat */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4A5DE2080ADFE004401C4 /* Config.swift */,
+			);
+			path = Uat;
+			sourceTree = "<group>";
+		};
+		BDF4A5D92080ADB0004401C4 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4A5E22080AE04004401C4 /* Config.swift */,
+			);
+			path = Prod;
 			sourceTree = "<group>";
 		};
 		C73E3D2B39A22C869C770C53 /* Frameworks */ = {
@@ -265,6 +367,44 @@
 			productReference = BDA7E749207F03B900C6689F /* SearchBookAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BDF4A59C2080A60F004401C4 /* SearchBookAppUat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4A5B22080A60F004401C4 /* Build configuration list for PBXNativeTarget "SearchBookAppUat" */;
+			buildPhases = (
+				BDF4A59D2080A60F004401C4 /* [CP] Check Pods Manifest.lock */,
+				BDF4A59E2080A60F004401C4 /* Sources */,
+				BDF4A5A72080A60F004401C4 /* Frameworks */,
+				BDF4A5A92080A60F004401C4 /* Resources */,
+				BDF4A5B12080A60F004401C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchBookAppUat;
+			productName = SearchBookApp;
+			productReference = BDF4A5B52080A60F004401C4 /* SearchBookAppUat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF4A5B72080A8DE004401C4 /* SearchBookAppDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4A5CD2080A8DE004401C4 /* Build configuration list for PBXNativeTarget "SearchBookAppDev" */;
+			buildPhases = (
+				BDF4A5B82080A8DE004401C4 /* [CP] Check Pods Manifest.lock */,
+				BDF4A5B92080A8DE004401C4 /* Sources */,
+				BDF4A5C22080A8DE004401C4 /* Frameworks */,
+				BDF4A5C42080A8DE004401C4 /* Resources */,
+				BDF4A5CC2080A8DE004401C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchBookAppDev;
+			productName = SearchBookApp;
+			productReference = BDF4A5D02080A8DE004401C4 /* SearchBookAppDev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,6 +445,8 @@
 				BDA7E729207F03B700C6689F /* SearchBookApp */,
 				BDA7E73D207F03B900C6689F /* SearchBookAppTests */,
 				BDA7E748207F03B900C6689F /* SearchBookAppUITests */,
+				BDF4A59C2080A60F004401C4 /* SearchBookAppUat */,
+				BDF4A5B72080A8DE004401C4 /* SearchBookAppDev */,
 			);
 		};
 /* End PBXProject section */
@@ -338,6 +480,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDF4A5A92080A60F004401C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4A5AA2080A60F004401C4 /* DetialViewController.xib in Resources */,
+				BDF4A5AB2080A60F004401C4 /* Localizable.strings in Resources */,
+				BDF4A5AC2080A60F004401C4 /* LandingViewController.xib in Resources */,
+				BDF4A5AD2080A60F004401C4 /* EntryViewController.xib in Resources */,
+				BDF4A5AE2080A60F004401C4 /* LaunchScreen.storyboard in Resources */,
+				BDF4A5AF2080A60F004401C4 /* BookListTableViewController.xib in Resources */,
+				BDF4A5B02080A60F004401C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4A5C42080A8DE004401C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4A5C52080A8DE004401C4 /* DetialViewController.xib in Resources */,
+				BDF4A5C62080A8DE004401C4 /* Localizable.strings in Resources */,
+				BDF4A5C72080A8DE004401C4 /* LandingViewController.xib in Resources */,
+				BDF4A5C82080A8DE004401C4 /* EntryViewController.xib in Resources */,
+				BDF4A5C92080A8DE004401C4 /* LaunchScreen.storyboard in Resources */,
+				BDF4A5CA2080A8DE004401C4 /* BookListTableViewController.xib in Resources */,
+				BDF4A5CB2080A8DE004401C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -357,6 +527,86 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF4A59D2080A60F004401C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchBookApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF4A5B12080A60F004401C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SearchBookApp/Pods-SearchBookApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchBookApp/Pods-SearchBookApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF4A5B82080A8DE004401C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchBookApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF4A5CC2080A8DE004401C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SearchBookApp/Pods-SearchBookApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchBookApp/Pods-SearchBookApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C2122D115E24196235AFE53C /* [CP] Check Pods Manifest.lock */ = {
@@ -428,8 +678,10 @@
 				BDA7E76F207F5D6F00C6689F /* Language.swift in Sources */,
 				BD804425208045550088471A /* CustomButton.swift in Sources */,
 				BDA7E763207F44D300C6689F /* EntryViewController.swift in Sources */,
+				BDF4A5E32080AE04004401C4 /* Config.swift in Sources */,
 				BD80442820805CFA0088471A /* BookListTableViewController.swift in Sources */,
 				BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */,
+				BDF4A5D32080ACBF004401C4 /* Configurable.swift in Sources */,
 				BDA7E72E207F03B700C6689F /* AppDelegate.swift in Sources */,
 				BD80442C2080610C0088471A /* DetialViewController.swift in Sources */,
 			);
@@ -448,6 +700,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA7E74E207F03B900C6689F /* SearchBookAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4A59E2080A60F004401C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4A59F2080A60F004401C4 /* ViewController.swift in Sources */,
+				BDF4A5A02080A60F004401C4 /* Language.swift in Sources */,
+				BDF4A5A12080A60F004401C4 /* CustomButton.swift in Sources */,
+				BDF4A5A22080A60F004401C4 /* EntryViewController.swift in Sources */,
+				BDF4A5E02080ADFE004401C4 /* Config.swift in Sources */,
+				BDF4A5A32080A60F004401C4 /* BookListTableViewController.swift in Sources */,
+				BDF4A5A42080A60F004401C4 /* LandingViewController.swift in Sources */,
+				BDF4A5D42080ACBF004401C4 /* Configurable.swift in Sources */,
+				BDF4A5A52080A60F004401C4 /* AppDelegate.swift in Sources */,
+				BDF4A5A62080A60F004401C4 /* DetialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4A5B92080A8DE004401C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4A5BA2080A8DE004401C4 /* ViewController.swift in Sources */,
+				BDF4A5BB2080A8DE004401C4 /* Language.swift in Sources */,
+				BDF4A5BC2080A8DE004401C4 /* CustomButton.swift in Sources */,
+				BDF4A5BD2080A8DE004401C4 /* EntryViewController.swift in Sources */,
+				BDF4A5BE2080A8DE004401C4 /* BookListTableViewController.swift in Sources */,
+				BDF4A5BF2080A8DE004401C4 /* LandingViewController.swift in Sources */,
+				BDF4A5D52080ACBF004401C4 /* Configurable.swift in Sources */,
+				BDF4A5DD2080ADCD004401C4 /* Config.swift in Sources */,
+				BDF4A5C02080A8DE004401C4 /* AppDelegate.swift in Sources */,
+				BDF4A5C12080A8DE004401C4 /* DetialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +810,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DOMAIN_URL = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -585,6 +872,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DOMAIN_URL = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -610,8 +898,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DOMAIN_URL = prod;
 				INFOPLIST_FILE = SearchBookApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -625,8 +917,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DOMAIN_URL = prod;
 				INFOPLIST_FILE = SearchBookApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -642,7 +938,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchBookAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -659,7 +959,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchBookAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -675,7 +979,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchBookAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -691,12 +999,92 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchBookAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SearchBookApp;
+			};
+			name = Release;
+		};
+		BDF4A5B32080A60F004401C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6E98DC5B2725AFB2E5A987 /* Pods-SearchBookApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DOMAIN_URL = uat;
+				INFOPLIST_FILE = SearchBookApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF4A5B42080A60F004401C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBA1730FAE16CE2163E5521 /* Pods-SearchBookApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DOMAIN_URL = uat;
+				INFOPLIST_FILE = SearchBookApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF4A5CE2080A8DE004401C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6E98DC5B2725AFB2E5A987 /* Pods-SearchBookApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DOMAIN_URL = dev;
+				INFOPLIST_FILE = SearchBookApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF4A5CF2080A8DE004401C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBA1730FAE16CE2163E5521 /* Pods-SearchBookApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DOMAIN_URL = dev;
+				INFOPLIST_FILE = SearchBookApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accenture.SearchBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -735,6 +1123,24 @@
 			buildConfigurations = (
 				BDA7E759207F03B900C6689F /* Debug */,
 				BDA7E75A207F03B900C6689F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4A5B22080A60F004401C4 /* Build configuration list for PBXNativeTarget "SearchBookAppUat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4A5B32080A60F004401C4 /* Debug */,
+				BDF4A5B42080A60F004401C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4A5CD2080A8DE004401C4 /* Build configuration list for PBXNativeTarget "SearchBookAppDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4A5CE2080A8DE004401C4 /* Debug */,
+				BDF4A5CF2080A8DE004401C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

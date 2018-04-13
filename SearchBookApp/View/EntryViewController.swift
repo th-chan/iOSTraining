@@ -28,6 +28,9 @@ class EntryViewController: UIViewController {
 //        lblWelcomeMessage.text = Bundle.main.localizedString(forKey: "welcome_message", value: nil, table: nil)
         
         btnClick.addTarget(self, action: #selector(touchDown), for: .touchDown)
+        
+//        print(Configurable().getDomain())
+        print(domainUrl)
     }
     
     @objc func touchDown() {
