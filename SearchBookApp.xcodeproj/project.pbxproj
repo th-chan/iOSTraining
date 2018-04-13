@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BD804425208045550088471A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD804424208045540088471A /* CustomButton.swift */; };
+		BD80442820805CFA0088471A /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442620805CFA0088471A /* BookListTableViewController.swift */; };
+		BD80442920805CFA0088471A /* BookListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442720805CFA0088471A /* BookListTableViewController.xib */; };
+		BD80442C2080610C0088471A /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442A2080610C0088471A /* DetialViewController.swift */; };
+		BD80442D2080610C0088471A /* DetialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442B2080610C0088471A /* DetialViewController.xib */; };
 		BDA7E72E207F03B700C6689F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72D207F03B700C6689F /* AppDelegate.swift */; };
 		BDA7E730207F03B700C6689F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7E72F207F03B700C6689F /* ViewController.swift */; };
 		BDA7E735207F03B900C6689F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA7E734207F03B900C6689F /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 
 /* Begin PBXFileReference section */
 		BD804424208045540088471A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BD80442620805CFA0088471A /* BookListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
+		BD80442720805CFA0088471A /* BookListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListTableViewController.xib; sourceTree = "<group>"; };
+		BD80442A2080610C0088471A /* DetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewController.swift; sourceTree = "<group>"; };
+		BD80442B2080610C0088471A /* DetialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetialViewController.xib; sourceTree = "<group>"; };
 		BDA7E72A207F03B700C6689F /* SearchBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA7E72D207F03B700C6689F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA7E72F207F03B700C6689F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +157,10 @@
 				BD804424208045540088471A /* CustomButton.swift */,
 				BDA7E761207F44D300C6689F /* EntryViewController.swift */,
 				BDA7E762207F44D300C6689F /* EntryViewController.xib */,
+				BD80442620805CFA0088471A /* BookListTableViewController.swift */,
+				BD80442720805CFA0088471A /* BookListTableViewController.xib */,
+				BD80442A2080610C0088471A /* DetialViewController.swift */,
+				BD80442B2080610C0088471A /* DetialViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,10 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD80442D2080610C0088471A /* DetialViewController.xib in Resources */,
 				BDA7E76A207F57B500C6689F /* Localizable.strings in Resources */,
 				BDA7E75E207F0C3E00C6689F /* LandingViewController.xib in Resources */,
 				BDA7E764207F44D300C6689F /* EntryViewController.xib in Resources */,
 				BDA7E738207F03B900C6689F /* LaunchScreen.storyboard in Resources */,
+				BD80442920805CFA0088471A /* BookListTableViewController.xib in Resources */,
 				BDA7E735207F03B900C6689F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +305,10 @@
 				BDA7E76F207F5D6F00C6689F /* Language.swift in Sources */,
 				BD804425208045550088471A /* CustomButton.swift in Sources */,
 				BDA7E763207F44D300C6689F /* EntryViewController.swift in Sources */,
+				BD80442820805CFA0088471A /* BookListTableViewController.swift in Sources */,
 				BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */,
 				BDA7E72E207F03B700C6689F /* AppDelegate.swift in Sources */,
+				BD80442C2080610C0088471A /* DetialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

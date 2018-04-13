@@ -20,6 +20,9 @@ class EntryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Entry View"
+        //self.navigationController?.navigationBar.isHidden = true
+        
         // Do any additional setup after loading the view.
 //        lblWelcomeMessage.text = NSLocalizedString("welcome_message", comment: "")
 //        lblWelcomeMessage.text = Bundle.main.localizedString(forKey: "welcome_message", value: nil, table: nil)
@@ -64,10 +67,33 @@ class EntryViewController: UIViewController {
     
     @IBAction func btnClick(_ sender: Any) {
         print("Clicked")
+        let searchWord = tfInput.text
+        
+        let booklistVC = BookListTableViewController(keyword: searchWord!)
+//        self.present(booklistVC, animated: true) {
+//
+//        }
+        self.navigationController?.pushViewController(booklistVC, animated: true)
+//        let detailVC = DetialViewController()
+////        self.present(detailVC, animated: true)
+//        let navVC = UINavigationController(rootViewController: detailVC)
+//        self.present(navVC, animated: true)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
     }
     
 
