@@ -10,6 +10,9 @@ import UIKit
 
 class EntryViewController: UIViewController {
 
+    
+    @IBOutlet weak var btnClick: CustomButton!
+    
     @IBOutlet weak var lblWelcomeMessage: UILabel!
     
     @IBOutlet weak var tfInput: UITextField!
@@ -20,6 +23,12 @@ class EntryViewController: UIViewController {
         // Do any additional setup after loading the view.
 //        lblWelcomeMessage.text = NSLocalizedString("welcome_message", comment: "")
 //        lblWelcomeMessage.text = Bundle.main.localizedString(forKey: "welcome_message", value: nil, table: nil)
+        
+        btnClick.addTarget(self, action: #selector(touchDown), for: .touchDown)
+    }
+    
+    @objc func touchDown() {
+        print("touch down")
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -13,7 +13,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntryViewController" customModule="SearchBookApp" customModuleProvider="target">
             <connections>
-                <outlet property="btnClick" destination="yK1-Kn-uxA" id="DoU-ZX-1AV"/>
                 <outlet property="lblWelcomeMessage" destination="PnV-vt-f1S" id="SKQ-cW-7ME"/>
                 <outlet property="tfInput" destination="058-lw-xnh" id="cf4-Nz-BWH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -64,25 +63,12 @@
                                 </textField>
                             </subviews>
                         </stackView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK1-Kn-uxA" customClass="CustomButton" customModule="SearchBookApp" customModuleProvider="target">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK1-Kn-uxA">
                             <rect key="frame" x="137" y="342" width="100" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="jLa-8B-13Z"/>
                             </constraints>
-                            <state key="normal" title="Click Me">
-                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </state>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                    <real key="value" value="2"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                    <real key="value" value="10"/>
-                                </userDefinedRuntimeAttribute>
-                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                    <color key="value" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </userDefinedRuntimeAttribute>
-                            </userDefinedRuntimeAttributes>
+                            <state key="normal" title="Click Me"/>
                             <connections>
                                 <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="v4m-od-yz7"/>
                             </connections>
