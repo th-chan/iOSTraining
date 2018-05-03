@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		5E681D1452BA48D24F5E39E9 /* Pods_SearchBookAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBCC0380E21281D240D6B7D /* Pods_SearchBookAppTests.framework */; };
 		AAE1B1AB002EE2FEDF34AE5B /* Pods_SearchBookApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4123C4CE16096FF4AF753371 /* Pods_SearchBookApp.framework */; };
+		BD25CD6C20844E0A00A1FAA3 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25CD6A20844E0A00A1FAA3 /* BookListTableViewCell.swift */; };
+		BD25CD6D20844E0A00A1FAA3 /* BookListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD25CD6B20844E0A00A1FAA3 /* BookListTableViewCell.xib */; };
+		BD25CD6E20845AC600A1FAA3 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25CD6A20844E0A00A1FAA3 /* BookListTableViewCell.swift */; };
+		BD25CD6F20845AC700A1FAA3 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25CD6A20844E0A00A1FAA3 /* BookListTableViewCell.swift */; };
+		BD25CD7020845ACF00A1FAA3 /* BookListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD25CD6B20844E0A00A1FAA3 /* BookListTableViewCell.xib */; };
+		BD25CD7120845AD000A1FAA3 /* BookListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD25CD6B20844E0A00A1FAA3 /* BookListTableViewCell.xib */; };
+		BD25CD74208483AA00A1FAA3 /* BookListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25CD73208483AA00A1FAA3 /* BookListAPI.swift */; };
+		BD25CD75208483AA00A1FAA3 /* BookListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25CD73208483AA00A1FAA3 /* BookListAPI.swift */; };
+		BD25CD76208483AA00A1FAA3 /* BookListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD25CD73208483AA00A1FAA3 /* BookListAPI.swift */; };
 		BD804425208045550088471A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD804424208045540088471A /* CustomButton.swift */; };
 		BD80442820805CFA0088471A /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD80442620805CFA0088471A /* BookListTableViewController.swift */; };
 		BD80442920805CFA0088471A /* BookListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD80442720805CFA0088471A /* BookListTableViewController.xib */; };
@@ -92,6 +101,9 @@
 		491A52799C7B5628C9B27699 /* Pods-SearchBookAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBookAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchBookAppTests/Pods-SearchBookAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		75DA3131FDCDB666C1F81D39 /* Pods-SearchBookAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBookAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchBookAppUITests/Pods-SearchBookAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		89062955143FF7EADEF1BA23 /* Pods-SearchBookAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBookAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchBookAppUITests/Pods-SearchBookAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD25CD6A20844E0A00A1FAA3 /* BookListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewCell.swift; sourceTree = "<group>"; };
+		BD25CD6B20844E0A00A1FAA3 /* BookListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListTableViewCell.xib; sourceTree = "<group>"; };
+		BD25CD73208483AA00A1FAA3 /* BookListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListAPI.swift; sourceTree = "<group>"; };
 		BD804424208045540088471A /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		BD80442620805CFA0088471A /* BookListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
 		BD80442720805CFA0088471A /* BookListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookListTableViewController.xib; sourceTree = "<group>"; };
@@ -186,6 +198,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BD25CD6920844D4900A1FAA3 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD25CD6A20844E0A00A1FAA3 /* BookListTableViewCell.swift */,
+				BD25CD6B20844E0A00A1FAA3 /* BookListTableViewCell.xib */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		BD25CD722084829000A1FAA3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BD25CD73208483AA00A1FAA3 /* BookListAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		BDA7E721207F03B700C6689F = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +244,8 @@
 		BDA7E72C207F03B700C6689F /* SearchBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD25CD722084829000A1FAA3 /* API */,
+				BD25CD6920844D4900A1FAA3 /* UITableViewCell */,
 				BDF4A5D62080AD95004401C4 /* Config */,
 				BDA7E760207F44A200C6689F /* View */,
 				BDA7E72D207F03B700C6689F /* AppDelegate.swift */,
@@ -460,6 +491,7 @@
 				BDA7E76A207F57B500C6689F /* Localizable.strings in Resources */,
 				BDA7E75E207F0C3E00C6689F /* LandingViewController.xib in Resources */,
 				BDA7E764207F44D300C6689F /* EntryViewController.xib in Resources */,
+				BD25CD6D20844E0A00A1FAA3 /* BookListTableViewCell.xib in Resources */,
 				BDA7E738207F03B900C6689F /* LaunchScreen.storyboard in Resources */,
 				BD80442920805CFA0088471A /* BookListTableViewController.xib in Resources */,
 				BDA7E735207F03B900C6689F /* Assets.xcassets in Resources */,
@@ -488,6 +520,7 @@
 				BDF4A5AB2080A60F004401C4 /* Localizable.strings in Resources */,
 				BDF4A5AC2080A60F004401C4 /* LandingViewController.xib in Resources */,
 				BDF4A5AD2080A60F004401C4 /* EntryViewController.xib in Resources */,
+				BD25CD7020845ACF00A1FAA3 /* BookListTableViewCell.xib in Resources */,
 				BDF4A5AE2080A60F004401C4 /* LaunchScreen.storyboard in Resources */,
 				BDF4A5AF2080A60F004401C4 /* BookListTableViewController.xib in Resources */,
 				BDF4A5B02080A60F004401C4 /* Assets.xcassets in Resources */,
@@ -502,6 +535,7 @@
 				BDF4A5C62080A8DE004401C4 /* Localizable.strings in Resources */,
 				BDF4A5C72080A8DE004401C4 /* LandingViewController.xib in Resources */,
 				BDF4A5C82080A8DE004401C4 /* EntryViewController.xib in Resources */,
+				BD25CD7120845AD000A1FAA3 /* BookListTableViewCell.xib in Resources */,
 				BDF4A5C92080A8DE004401C4 /* LaunchScreen.storyboard in Resources */,
 				BDF4A5CA2080A8DE004401C4 /* BookListTableViewController.xib in Resources */,
 				BDF4A5CB2080A8DE004401C4 /* Assets.xcassets in Resources */,
@@ -676,8 +710,10 @@
 			files = (
 				BDA7E730207F03B700C6689F /* ViewController.swift in Sources */,
 				BDA7E76F207F5D6F00C6689F /* Language.swift in Sources */,
+				BD25CD6C20844E0A00A1FAA3 /* BookListTableViewCell.swift in Sources */,
 				BD804425208045550088471A /* CustomButton.swift in Sources */,
 				BDA7E763207F44D300C6689F /* EntryViewController.swift in Sources */,
+				BD25CD74208483AA00A1FAA3 /* BookListAPI.swift in Sources */,
 				BDF4A5E32080AE04004401C4 /* Config.swift in Sources */,
 				BD80442820805CFA0088471A /* BookListTableViewController.swift in Sources */,
 				BDA7E75D207F0C3E00C6689F /* LandingViewController.swift in Sources */,
@@ -709,8 +745,10 @@
 			files = (
 				BDF4A59F2080A60F004401C4 /* ViewController.swift in Sources */,
 				BDF4A5A02080A60F004401C4 /* Language.swift in Sources */,
+				BD25CD6E20845AC600A1FAA3 /* BookListTableViewCell.swift in Sources */,
 				BDF4A5A12080A60F004401C4 /* CustomButton.swift in Sources */,
 				BDF4A5A22080A60F004401C4 /* EntryViewController.swift in Sources */,
+				BD25CD75208483AA00A1FAA3 /* BookListAPI.swift in Sources */,
 				BDF4A5E02080ADFE004401C4 /* Config.swift in Sources */,
 				BDF4A5A32080A60F004401C4 /* BookListTableViewController.swift in Sources */,
 				BDF4A5A42080A60F004401C4 /* LandingViewController.swift in Sources */,
@@ -726,8 +764,10 @@
 			files = (
 				BDF4A5BA2080A8DE004401C4 /* ViewController.swift in Sources */,
 				BDF4A5BB2080A8DE004401C4 /* Language.swift in Sources */,
+				BD25CD6F20845AC700A1FAA3 /* BookListTableViewCell.swift in Sources */,
 				BDF4A5BC2080A8DE004401C4 /* CustomButton.swift in Sources */,
 				BDF4A5BD2080A8DE004401C4 /* EntryViewController.swift in Sources */,
+				BD25CD76208483AA00A1FAA3 /* BookListAPI.swift in Sources */,
 				BDF4A5BE2080A8DE004401C4 /* BookListTableViewController.swift in Sources */,
 				BDF4A5BF2080A8DE004401C4 /* LandingViewController.swift in Sources */,
 				BDF4A5D52080ACBF004401C4 /* Configurable.swift in Sources */,
