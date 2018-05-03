@@ -30,6 +30,7 @@ class EntryViewController: UIViewController {
         btnClick.addTarget(self, action: #selector(touchDown), for: .touchDown)
         
 //        print(Configurable().getDomain())
+        
         print(domainUrl)
         
         #if UAT

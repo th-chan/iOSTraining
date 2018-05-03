@@ -24,7 +24,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googleNewLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UcL-aC-NnS" userLabel="BottomBanner">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="UcL-aC-NnS" userLabel="BottomBanner">
                     <rect key="frame" x="0.0" y="573.5" width="375" height="93.5"/>
                     <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
@@ -34,7 +34,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXt-Ky-9po" userLabel="TopPartUIView">
                     <rect key="frame" x="0.0" y="20" width="375" height="553.5"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googleNewLogo" translatesAutoresizingMaskIntoConstraints="NO" id="cih-aM-b5Y" userLabel="TopBanner">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="cih-aM-b5Y" userLabel="TopBanner">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="211"/>
                             <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
@@ -48,7 +48,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lfa-NX-6wQ">
-                            <rect key="frame" x="5" y="292" width="365" height="30"/>
+                            <rect key="frame" x="5" y="302" width="365" height="30"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ho-L5-p8e">
                                     <rect key="frame" x="0.0" y="0.0" width="62.5" height="30"/>
@@ -65,22 +65,23 @@
                             </subviews>
                         </stackView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK1-Kn-uxA" customClass="CustomButton" customModule="SearchBookApp" customModuleProvider="target">
-                            <rect key="frame" x="137" y="342" width="100" height="30"/>
+                            <rect key="frame" x="137" y="372" width="100" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.54136903471077769" blue="0.99942404029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="jLa-8B-13Z"/>
                             </constraints>
                             <state key="normal" title="Click Me">
-                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                    <real key="value" value="2"/>
+                                    <real key="value" value="1"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                    <real key="value" value="10"/>
+                                    <real key="value" value="6"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                    <color key="value" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="value" red="0.0" green="0.42080422355513669" blue="0.77684874884922284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                             <connections>
@@ -88,17 +89,17 @@
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.77254845050032328" green="0.71658022289088141" blue="0.8470288212435233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PnV-vt-f1S" secondAttribute="trailing" constant="5" id="3Ys-7W-d4N"/>
                         <constraint firstItem="yK1-Kn-uxA" firstAttribute="centerX" secondItem="xXt-Ky-9po" secondAttribute="centerX" id="42l-pb-kr4"/>
                         <constraint firstItem="Lfa-NX-6wQ" firstAttribute="leading" secondItem="xXt-Ky-9po" secondAttribute="leading" constant="5" id="HIn-b0-HKO"/>
-                        <constraint firstItem="yK1-Kn-uxA" firstAttribute="top" secondItem="Lfa-NX-6wQ" secondAttribute="bottom" constant="20" id="Hzh-S5-EpC"/>
+                        <constraint firstItem="yK1-Kn-uxA" firstAttribute="top" secondItem="Lfa-NX-6wQ" secondAttribute="bottom" constant="40" id="Hzh-S5-EpC"/>
                         <constraint firstItem="PnV-vt-f1S" firstAttribute="leading" secondItem="xXt-Ky-9po" secondAttribute="leading" constant="5" id="RUg-EX-XDm"/>
                         <constraint firstAttribute="trailing" secondItem="Lfa-NX-6wQ" secondAttribute="trailing" constant="5" id="bwc-LM-i0B"/>
                         <constraint firstItem="cih-aM-b5Y" firstAttribute="top" secondItem="xXt-Ky-9po" secondAttribute="top" id="fHh-2A-99V"/>
                         <constraint firstItem="cih-aM-b5Y" firstAttribute="leading" secondItem="xXt-Ky-9po" secondAttribute="leading" id="i8J-FN-Gsw"/>
-                        <constraint firstItem="Lfa-NX-6wQ" firstAttribute="top" secondItem="PnV-vt-f1S" secondAttribute="bottom" constant="10" id="mfJ-aQ-Nx0"/>
+                        <constraint firstItem="Lfa-NX-6wQ" firstAttribute="top" secondItem="PnV-vt-f1S" secondAttribute="bottom" constant="20" id="mfJ-aQ-Nx0"/>
                         <constraint firstAttribute="trailing" secondItem="cih-aM-b5Y" secondAttribute="trailing" id="rH9-vd-RAv"/>
                         <constraint firstItem="PnV-vt-f1S" firstAttribute="top" secondItem="cih-aM-b5Y" secondAttribute="bottom" constant="10" id="zQf-pS-OP2"/>
                     </constraints>
@@ -118,6 +119,7 @@
         </view>
     </objects>
     <resources>
-        <image name="googleNewLogo" width="770" height="472"/>
+        <image name="banner" width="1920" height="1080"/>
+        <image name="bottom" width="750" height="340"/>
     </resources>
 </document>
